@@ -9,7 +9,7 @@ int main()
  int wt[5]; 
  int ct[5];
  int tat[5];
- ct[0] = at[0 + 2] + bt[0 + 2];
+ ct[0] = at[0] + bt[0];
  for(int i = 1; i < n; i++){
     if(ct[i-1] < at[i])
     ct[i] = at[i] + bt[i];
